@@ -1,9 +1,6 @@
 function firstChar(text) {
   // your code here
-	if(text.trim()==0){
-		return "";
-	}
-	return text.trim()[0];
+	return text.trim().charAt(0)
 }
 
 // Do not change the code below
